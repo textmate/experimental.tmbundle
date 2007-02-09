@@ -5,19 +5,16 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
-html_header "Hex Colors in Document"
-"${TM_RUBY:-ruby}" "$TM_BUNDLE_SUPPORT/show_hex_colors.rb"
-html_footer
-
-</string>
+	<string>"$TM_BUNDLE_SUPPORT/bin/convert_to_snippet.rb"</string>
+	<key>fallbackInput</key>
+	<string>none</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>name</key>
-	<string>Show Hex Colors</string>
+	<string>Convert to Snippet</string>
 	<key>output</key>
-	<string>showAsHTML</string>
+	<string>insertAsSnippet</string>
 	<key>uuid</key>
-	<string>7CC7E11B-02BE-4F8D-9E8F-396D2CB74A98</string>
+	<string>99D9DBC0-E03E-46B9-9E73-13F58DCDB55B</string>
 </dict>
 </plist>
