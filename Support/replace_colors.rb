@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
 # Replace all of the occurrences of the selected color with the chosen color in the current document.
 # Thomas Aylott -- subtleGradient.com
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
 line = ENV['TM_CURRENT_LINE']
 
 caret_placement = 0
